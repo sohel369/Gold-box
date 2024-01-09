@@ -39,6 +39,7 @@ p {
     box-shadow: 0 0 10px black;
     position: relative;
     cursor: pointer;
+    transition: 1s;
 }
 .container .box1:hover{
     transform: translateY(-20px);
@@ -202,6 +203,11 @@ p {
     box-shadow: 0 0 10px black;
     transform: translate(-50%, 50%);
     margin-top: 20px;
+}
+.container button:hover{
+    background: rgb(28, 27, 27);
+    color: white;
+    transition: 1s;
 }
 
 .container .box1 h1 span,
