@@ -38,8 +38,23 @@ p {
     margin: 0 20px;
     box-shadow: 0 0 10px black;
     position: relative;
+    cursor: pointer;
 }
-
+.container .box1:hover{
+    transform: translateY(-20px);
+    transition: 1s;
+    background: rgba(180, 122, 122, 0.429);
+}
+.container .box2:hover{
+    transform: translateY(-20px);
+    transition: 1s;
+    background: rgba(180, 122, 122, 0.429);
+}
+.container .box3:hover{
+    transform: translateY(-20px);
+    transition: 1s;
+    background: rgba(180, 122, 122, 0.429);
+}
 .container .box1 h2 {
     text-align: center;
     font-size: 30px;
@@ -85,6 +100,8 @@ p {
     margin: 0 20px;
     box-shadow: 0 0 10px black;
     position: relative;
+    transition: 1s;
+    cursor: pointer;
 }
 
 .container .box2 h3 {
@@ -146,6 +163,8 @@ p {
     margin: 0 20px;
     box-shadow: 0 0 10px black;
     position: relative;
+    cursor: pointer;
+    transition: 1s;
 }
 
 .container .box3 h2 {
