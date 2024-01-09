@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    height: 150vh;
+    width: 100%;
+    position: relative;
+    background: white;
+}
+
+h1 {
+    text-align: center;
+    color: #000;
+    margin-top: 20px;
+}
+
+p {
+    text-align: center;
+    color: #555;
+    margin: 20px 0;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .box1 {
+    width: 300px;
+    height: 560px;
+    background: rgb(255, 255, 255);
+    margin: 0 20px;
+    box-shadow: 0 0 10px black;
+    position: relative;
+}
+
+.container .box1 h2 {
+    text-align: center;
+    font-size: 30px;
+    text-transform: capitalize;
+    margin-top: 30px;
+}
+
+.container .box1 li {
+    margin: 20px 20px;
+    font-size: 16px;
+}
+
+.container .box1 li i {
+    color: #ffd900;
+}
+
+.container .box1 li i.bx-message-square-x {
+    color: #000;
+}
+
+.container .box1 button {
+    width: 200px;
+    cursor: pointer;
+    position: absolute;
+    bottom: 30px;
+    padding: 10px;
+    left: 50%;
+    border: 2px solid transparent;
+    border-radius: 20px;
+    outline: none;
+    text-transform: uppercase;
+    background: white;
+    box-shadow: 0 0 10px black;
+    transform: translate(-50%, 50%);
+    margin-top: 20px;
+}
+
+/* box2 */
+.container .box2 {
+    width: 300px;
+    height: 560px;
+    background: rgb(255, 255, 255);
+    margin: 0 20px;
+    box-shadow: 0 0 10px black;
+    position: relative;
+}
+
+.container .box2 h3 {
+    width: 100%;
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    background: #ffd900;
+    padding: 10px;
+}
+
+.container .box2 h2 {
+    text-align: center;
+    font-size: 30px;
+    text-transform: capitalize;
+    margin-top: 0px;
+}
+
+.container .box2 h1 {
+    font-size: 28px;
+    margin: 0;
+}
+
+.container .box2 li {
+    margin: 20px 20px;
+    font-size: 16px;
+}
+
+.container .box2 li i {
+    color: #ffd900;
+}
+
+.container .box2 li i.bx-message-square-x {
+    color: #000;
+}
+
+.container .box2 button {
+    width: 200px;
+    cursor: pointer;
+    position: absolute;
+    bottom: 30px;
+    padding: 10px;
+    left: 50%;
+    border: 2px solid transparent;
+    border-radius: 20px;
+    outline: none;
+    text-transform: uppercase;
+    background: #ffd900;
+    box-shadow: 0 0 10px black;
+    transform: translate(-50%, 50%);
+    margin-top: 20px;
+}
+
+/* box 3 */
+.container .box3 {
+    width: 300px;
+    height: 560px;
+    background: rgb(255, 255, 255);
+    margin: 0 20px;
+    box-shadow: 0 0 10px black;
+    position: relative;
+}
+
+.container .box3 h2 {
+    text-align: center;
+    font-size: 30px;
+    text-transform: capitalize;
+    margin-top: 30px;
+}
+
+.container .box3 li {
+    margin: 20px 20px;
+    font-size: 16px;
+}
+
+.container .box3 li i {
+    color: #ffd900;
+}
+
+.container .box3 li i.bx-message-square-x {
+    color: #000;
+}
+
+.container .box3 button {
+    width: 200px;
+    cursor: pointer;
+    position: absolute;
+    bottom: 30px;
+    padding: 10px;
+    left: 50%;
+    border: 2px solid transparent;
+    border-radius: 20px;
+    outline: none;
+    text-transform: uppercase;
+    background: rgb(255, 255, 255);
+    box-shadow: 0 0 10px black;
+    transform: translate(-50%, 50%);
+    margin-top: 20px;
+}
+
+.container .box1 h1 span,
+.box2 h1 span,
+.box3 h1 span {
+    font-size: 18px;
+    color: #000;
+}
+@media screen and (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        width: 100%;
+    }
+    .container .box1, .box2, .box3{
+        margin: 20px 0;
+    }
+}
