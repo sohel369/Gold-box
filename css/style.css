@@ -41,21 +41,25 @@ p {
     cursor: pointer;
     transition: 1s;
 }
-.container .box1:hover{
+
+.container .box1:hover {
     transform: translateY(-20px);
     transition: 1s;
     background: rgba(180, 122, 122, 0.429);
 }
-.container .box2:hover{
+
+.container .box2:hover {
     transform: translateY(-20px);
     transition: 1s;
     background: rgba(180, 122, 122, 0.429);
 }
-.container .box3:hover{
+
+.container .box3:hover {
     transform: translateY(-20px);
     transition: 1s;
     background: rgba(180, 122, 122, 0.429);
 }
+
 .container .box1 h2 {
     text-align: center;
     font-size: 30px;
@@ -204,7 +208,8 @@ p {
     transform: translate(-50%, 50%);
     margin-top: 20px;
 }
-.container button:hover{
+
+.container button:hover {
     background: #07cf1f;
     color: white;
     transition: 1s;
@@ -216,12 +221,16 @@ p {
     font-size: 18px;
     color: #000;
 }
+
 @media screen and (max-width: 768px) {
     .container {
         flex-direction: column;
         width: 100%;
     }
-    .container .box1, .container .box2, .container .box3{
+
+    .container .box1,
+    .container .box2,
+    .container .box3 {
         margin: 20px 0;
     }
 }
